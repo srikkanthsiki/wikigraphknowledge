@@ -1,6 +1,8 @@
 # wikigraphknowledge
 Constains code and documents and video sales force Graph knowledge
-
+## How to Present:
+ please have a look into working application with in Demo folder. please go in the same order as the number
+ 
 ## Sample queries :
 ```
 MATCH (p:Person { name: 'Mani' })-[r]->(n2)  RETURN r,n2
