@@ -18,10 +18,31 @@ Merge (j:Noun {name: 'Corvus'})-[rel:isKnown]-(m:Noun {name: 'crows'})
 
 
 ## LocalSetup:
-prepared video for local setup please have a view
+There are 4 seperate mini applications for this Project viz 
+this is done to modularize and scaling if deployed in Kubernates
+* uploadBatch
+* API
+* UI
+* DB/Neo4j
 
+### setup of uploadBatch
+prepared video for local setup please have a view -- DB is mandatory befor u start this app 
+* please clone latest code 
+* navigate to uploadBatch folder
+* npm install ..
+* npm start 
 
+### setup of API
+prepared video for local setup please have a view -- DB is mandatory befor u start this app 
+* please clone latest code 
+* navigate to API folder
+* npm install ..
+* npm run dev (this one is nodeman integrated)
 
+### setup of UI (React--Material)
+* navigate to UI folder
+* npm install ..
+* npm start (this one is powered by Nx)
 
 ## Neo4j local setup-community version (Windows 10)
 
@@ -31,7 +52,7 @@ prepared video for local setup please have a view
 * defaut user pass ( neo4j/neo4j)
 * verification if neo4j is up and running http://localhost:7474/browser/
 
-Node packages :
+## Node packages :
 https://www.npmjs.com/package/xml-flow -- xml parsing
 https://www.npmjs.com/package/natural#pos-tagger -- Natural language processsing 
 
